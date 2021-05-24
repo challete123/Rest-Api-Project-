@@ -82,7 +82,7 @@ protocol: TCP
    ip-111-33-33-33:~/restAPI$ kubectl get svc
 NAME         TYPE           CLUSTER-IP      EXTERNAL-IP                                                               PORT(S)          AGE
 kubernetes   ClusterIP      10.100.0.1      <none>                                                                    443/TCP          116m
-script       LoadBalancer   10.100.11.12   a2d9e4-201323447.uk-east-2.elb.amazonaws.com   8080:31043/TCP   94m
+script       LoadBalancer   10.100.236.113    ac3a8b293662e40a784874ea17b95f33-400912588.us-west-2.elb.amazonaws.com    8080:30007/TCP   94m
        
 
 9.Connect Postman to check the restapi service ,
