@@ -18,7 +18,7 @@ spec:
       containers:
       - name: restapi
         resources:
-        image: 928552728292.dkr.ecr.us-east-2.amazonaws.com/spinnaker:restapiV0.1
+        image: 841215932459.dkr.ecr.us-west-2.amazonaws.com/challete:restapiv0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
